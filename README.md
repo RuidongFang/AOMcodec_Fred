@@ -6,23 +6,23 @@
 ## AOMcodec_Fred说明
 </br></br>
 ## 平台搭建
-* build prerequisites
-    http://aomedia.org/build-prerequisites/
-* clone the AOM repository
+* build prerequisites</br>
+    http://aomedia.org/build-prerequisites/</br>
+* clone the AOM repository</br>
     `$ git clone https://aomedia.googlesource.com/aom`</br>
-    `$ cd aom`
-* Configure and build AOM
+    `$ cd aom`</br>
+* Configure and build AOM</br>
     `$ ./configure --enable-internal-stats --enable-debug --disable-install-docs --log=yes`</br>
-    `$ make`
-* Run some encodes
+    `$ make`</br>
+* Run some encodes</br>
     `$ cd <test clip directory>`</br>
-    `$ run_tests 200 500 50 baseline`
-* Make your changes to AOM
-    `$ run_tests 200 500 50 mytweak`
-* generate an HTML-format report
-    `$ visual_metrics.py metrics_template.html "*stt" baseline mytweak > mytweak.html`
-* View the report
-    opening mytweak.html in a web browser
+    `$ run_tests 200 500 50 baseline`</br>
+* Make your changes to AOM</br>
+    `$ run_tests 200 500 50 mytweak`</br>
+* generate an HTML-format report</br>
+    `$ visual_metrics.py metrics_template.html "*stt" baseline mytweak > mytweak.html`</br>
+* View the report</br>
+    opening mytweak.html in a web browser</br>
 </br></br>
 ## 资源链接
 ### AV1发布平台
