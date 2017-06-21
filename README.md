@@ -8,20 +8,20 @@
 ## 平台搭建
 * *build prerequisites*</br>
 http://aomedia.org/build-prerequisites/</br>
-* *clone the AOM repository*</br>
+"1. " **clone the AOM repository**</br>
     `$ git clone https://aomedia.googlesource.com/aom`</br>
     `$ cd aom`</br>
-* *Configure and build AOM*</br>
+* **Configure and build AOM**</br>
     `$ ./configure --enable-internal-stats --enable-debug --disable-install-docs --log=yes`</br>
     `$ make`</br>
-* *Run some encodes*</br>
+* **Run some encodes**</br>
     `$ cd <test clip directory>`</br>
     `$ run_tests 200 500 50 baseline`</br>
-* *Make your changes to AOM*</br>
+* **Make your changes to AOM**</br>
     `$ run_tests 200 500 50 mytweak`</br>
-* *generate an HTML-format report*</br>
+* **generate an HTML-format report**</br>
     `$ visual_metrics.py metrics_template.html "*stt" baseline mytweak > mytweak.html`</br>
-* *View the report*</br>
+* **View the report**</br>
 opening mytweak.html in a web browser</br>
 </br></br>
 ## 资源链接
