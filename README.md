@@ -6,9 +6,9 @@
 ## AOMcodec_Fred说明
 </br></br>
 ## 平台搭建
-* *build prerequisites*</br>
+* **build prerequisites**</br>
 http://aomedia.org/build-prerequisites/</br>
-"1. " **clone the AOM repository**</br>
+* **clone the AOM repository**</br>
     `$ git clone https://aomedia.googlesource.com/aom`</br>
     `$ cd aom`</br>
 * **Configure and build AOM**</br>
