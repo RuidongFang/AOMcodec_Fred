@@ -31,8 +31,8 @@ opening mytweak.html in a web browser</br>
 * AOM ANALYZER：https://people.xiph.org/~mbebenita/analyzer/
 * aomanalyzer：https://github.com/mbebenita/aomanalyzer
 ### AV1源码
-* 源码地址：https://aomedia.googlesource.com/aom
-* 测试脚本：https://aomedia.googlesource.com/contributor-guide
+* DOWNLOAD AOM：https://aomedia.googlesource.com/aom
+* TEST SCRIPTS：https://aomedia.googlesource.com/contributor-guide
 ### 测试视频序列
 * Video Test Media：http://media.xiph.org/video/derf/
 </br></br>
