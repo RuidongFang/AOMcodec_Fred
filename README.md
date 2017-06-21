@@ -7,7 +7,7 @@
 </br></br>
 ## 平台搭建
 * build prerequisites</br>
-    http://aomedia.org/build-prerequisites/</br>
+http://aomedia.org/build-prerequisites/</br>
 * clone the AOM repository</br>
     `$ git clone https://aomedia.googlesource.com/aom`</br>
     `$ cd aom`</br>
@@ -22,7 +22,7 @@
 * generate an HTML-format report</br>
     `$ visual_metrics.py metrics_template.html "*stt" baseline mytweak > mytweak.html`</br>
 * View the report</br>
-    opening mytweak.html in a web browser</br>
+opening mytweak.html in a web browser</br>
 </br></br>
 ## 资源链接
 ### AV1发布平台
